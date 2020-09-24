@@ -16,7 +16,7 @@ const createNewTaskItem = (container, id, text, completed, deleted) => {
 
     const item =
         `<li class='${taskCompleted}'>
-        <div class="item-img"><img src="./Images/to-do-icon.png"></div>
+        <div class="item-img"><img src="/Images/to-do-icon.png"></div>
         <div class="item-text">${text}</div>
         <div class="item-buttons">
             <button id="${id}" class="complete-button"><i class="fa fa-check" aria-hidden="true"></i></button>
